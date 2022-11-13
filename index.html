@@ -8,16 +8,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>NEW!</div>
-    <div>Plans now start at <strong>$6.99</strong></div>
-    <a>Learn More > </a>
+    <div class="header">
+        <div class="header__badge">NEW!</div>
+        <div class="header__info">Plans now start at <strong>$6.99. </strong></div>
+        <a href="#" class="header__info-more"> Learn More > </a>
+    </div>
     <main class="landing-page">
-        <h1>NETFLIX</h1>
-        <select name="display-language" id="display-language"> English 
-            <option value="English"> English </option>
-            <option value="Spanish"> Espanol </option>
-        </select>
-        <button>Sign In</button>
+        <section class="landing-page__header">
+            <h1 class="logo">NETFLIX</h1>
+            <select name="display-language" class="display-language" id="display-language">
+                <option value="English"> English </option>
+                <option value="Spanish"> Espanol </option>
+            </select>
+            <button type="submit">Sign In</button>
+        </section>
         <h1>Unlimited Movies, TV Shows and More.</h1>
         <h2>Watch anywhere. Cancel anytime</h2>
         <h3>Ready to Watch? Enter your email to create or restart your membership.</h3>
